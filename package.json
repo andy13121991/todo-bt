@@ -1,0 +1,32 @@
+{
+  "name": "todo-bt",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "axios": "^1.5.1",
+    "bootstrap": "^5.3.1",
+    "bootstrap-vue": "^2.23.1",
+    "mitt": "^3.0.1",
+    "moment": "^2.29.4",
+    "pinia": "^2.1.7",
+    "sass": "^1.69.4",
+    "vue": "^2.7.14",
+    "vue-router": "^3.6.5",
+    "vuex": "^3.1.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^2.0.0",
+    "@vitejs/plugin-vue2": "^1.1.2",
+    "@vitejs/plugin-vue2-jsx": "^1.0.2",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "terser": "^5.14.2",
+    "vite": "^3.0.2"
+  }
+}

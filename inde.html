@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./src/assets/st.css">
+    </head>
+<div class="list-container">
+  <button class="more-button" aria-label="Menu Button">
+    <div class="menu-icon-wrapper">
+      <div class="menu-icon-line half first"></div>
+      <div class="menu-icon-line"></div>
+      <div class="menu-icon-line half last"></div>
+    </div>
+  </button>
+  <ul class="more-button-list">
+    <li class="more-button-list-item">
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="480" height="480" viewBox="0 0 30 30">
+<path d="M 26.980469 5.9902344 A 1.0001 1.0001 0 0 0 26.292969 6.2929688 L 11 21.585938 L 4.7070312 15.292969 A 1.0001 1.0001 0 1 0 3.2929688 16.707031 L 10.292969 23.707031 A 1.0001 1.0001 0 0 0 11.707031 23.707031 L 27.707031 7.7070312 A 1.0001 1.0001 0 0 0 26.980469 5.9902344 z"></path>
+</svg>
+      <span>Done</span>
+    </li>
+    <li class="more-button-list-item">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2">
+        <path d="M3 6h18M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2M10 11v6M14 11v6"/>
+      </svg>
+      <span>Delete</span>
+    </li>
+  </d>
+</div>
+</html>
+<script>
+document.querySelector('.more-button').addEventListener('click', function () {
+    document.querySelector('.list-container').classList.toggle('active');
+});
+
+</script>
